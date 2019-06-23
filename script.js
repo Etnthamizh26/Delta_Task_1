@@ -65,8 +65,7 @@ function circle(bax,bay,hp)
   ctx.stroke();
   ctx.font="20px Cursive";
   ctx.fillStyle = "white";
-  ctx.textAlign = "center";
-  ctx.fillText(hp, bax, bay+5);
+  ctx.fillText(hp, bax-20, bay+5);
 }
 
 function scoarea()
